@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF3E9D91CB37DB60088ABED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3E9D81CB37DB60088ABED /* AppDelegate.swift */; };
+		CCF3E9DB1CB37DB60088ABED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3E9DA1CB37DB60088ABED /* ViewController.swift */; };
+		CCF3E9DE1CB37DB60088ABED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3E9DC1CB37DB60088ABED /* Main.storyboard */; };
+		CCF3E9E01CB37DB60088ABED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF3E9DF1CB37DB60088ABED /* Assets.xcassets */; };
+		CCF3E9E31CB37DB60088ABED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF3E9E11CB37DB60088ABED /* LaunchScreen.storyboard */; };
+		CCF3E9EE1CB37DB60088ABED /* boom_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3E9ED1CB37DB60088ABED /* boom_appTests.swift */; };
+		CCF3E9F91CB37DB60088ABED /* boom_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF3E9F81CB37DB60088ABED /* boom_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF3E9EA1CB37DB60088ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3E9CD1CB37DB60088ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3E9D41CB37DB60088ABED;
+			remoteInfo = "boom app";
+		};
+		CCF3E9F51CB37DB60088ABED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF3E9CD1CB37DB60088ABED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF3E9D41CB37DB60088ABED;
+			remoteInfo = "boom app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF3E9D51CB37DB60088ABED /* boom app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "boom app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3E9D81CB37DB60088ABED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF3E9DA1CB37DB60088ABED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF3E9DD1CB37DB60088ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF3E9DF1CB37DB60088ABED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF3E9E21CB37DB60088ABED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF3E9E41CB37DB60088ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3E9E91CB37DB60088ABED /* boom appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "boom appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3E9ED1CB37DB60088ABED /* boom_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boom_appTests.swift; sourceTree = "<group>"; };
+		CCF3E9EF1CB37DB60088ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF3E9F41CB37DB60088ABED /* boom appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "boom appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF3E9F81CB37DB60088ABED /* boom_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = boom_appUITests.swift; sourceTree = "<group>"; };
+		CCF3E9FA1CB37DB60088ABED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF3E9D21CB37DB60088ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9E61CB37DB60088ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9F11CB37DB60088ABED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF3E9CC1CB37DB60088ABED = {
+			isa = PBXGroup;
+			children = (
+				CCF3E9D71CB37DB60088ABED /* boom app */,
+				CCF3E9EC1CB37DB60088ABED /* boom appTests */,
+				CCF3E9F71CB37DB60088ABED /* boom appUITests */,
+				CCF3E9D61CB37DB60088ABED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF3E9D61CB37DB60088ABED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3E9D51CB37DB60088ABED /* boom app.app */,
+				CCF3E9E91CB37DB60088ABED /* boom appTests.xctest */,
+				CCF3E9F41CB37DB60088ABED /* boom appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF3E9D71CB37DB60088ABED /* boom app */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3E9D81CB37DB60088ABED /* AppDelegate.swift */,
+				CCF3E9DA1CB37DB60088ABED /* ViewController.swift */,
+				CCF3E9DC1CB37DB60088ABED /* Main.storyboard */,
+				CCF3E9DF1CB37DB60088ABED /* Assets.xcassets */,
+				CCF3E9E11CB37DB60088ABED /* LaunchScreen.storyboard */,
+				CCF3E9E41CB37DB60088ABED /* Info.plist */,
+			);
+			path = "boom app";
+			sourceTree = "<group>";
+		};
+		CCF3E9EC1CB37DB60088ABED /* boom appTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3E9ED1CB37DB60088ABED /* boom_appTests.swift */,
+				CCF3E9EF1CB37DB60088ABED /* Info.plist */,
+			);
+			path = "boom appTests";
+			sourceTree = "<group>";
+		};
+		CCF3E9F71CB37DB60088ABED /* boom appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF3E9F81CB37DB60088ABED /* boom_appUITests.swift */,
+				CCF3E9FA1CB37DB60088ABED /* Info.plist */,
+			);
+			path = "boom appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF3E9D41CB37DB60088ABED /* boom app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3E9FD1CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom app" */;
+			buildPhases = (
+				CCF3E9D11CB37DB60088ABED /* Sources */,
+				CCF3E9D21CB37DB60088ABED /* Frameworks */,
+				CCF3E9D31CB37DB60088ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "boom app";
+			productName = "boom app";
+			productReference = CCF3E9D51CB37DB60088ABED /* boom app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF3E9E81CB37DB60088ABED /* boom appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3EA001CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom appTests" */;
+			buildPhases = (
+				CCF3E9E51CB37DB60088ABED /* Sources */,
+				CCF3E9E61CB37DB60088ABED /* Frameworks */,
+				CCF3E9E71CB37DB60088ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3E9EB1CB37DB60088ABED /* PBXTargetDependency */,
+			);
+			name = "boom appTests";
+			productName = "boom appTests";
+			productReference = CCF3E9E91CB37DB60088ABED /* boom appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF3E9F31CB37DB60088ABED /* boom appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF3EA031CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom appUITests" */;
+			buildPhases = (
+				CCF3E9F01CB37DB60088ABED /* Sources */,
+				CCF3E9F11CB37DB60088ABED /* Frameworks */,
+				CCF3E9F21CB37DB60088ABED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF3E9F61CB37DB60088ABED /* PBXTargetDependency */,
+			);
+			name = "boom appUITests";
+			productName = "boom appUITests";
+			productReference = CCF3E9F41CB37DB60088ABED /* boom appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF3E9CD1CB37DB60088ABED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sapotta;
+				TargetAttributes = {
+					CCF3E9D41CB37DB60088ABED = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JHH4EST84W;
+					};
+					CCF3E9E81CB37DB60088ABED = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JHH4EST84W;
+						TestTargetID = CCF3E9D41CB37DB60088ABED;
+					};
+					CCF3E9F31CB37DB60088ABED = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = JHH4EST84W;
+						TestTargetID = CCF3E9D41CB37DB60088ABED;
+					};
+				};
+			};
+			buildConfigurationList = CCF3E9D01CB37DB60088ABED /* Build configuration list for PBXProject "boom app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF3E9CC1CB37DB60088ABED;
+			productRefGroup = CCF3E9D61CB37DB60088ABED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF3E9D41CB37DB60088ABED /* boom app */,
+				CCF3E9E81CB37DB60088ABED /* boom appTests */,
+				CCF3E9F31CB37DB60088ABED /* boom appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF3E9D31CB37DB60088ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3E9E31CB37DB60088ABED /* LaunchScreen.storyboard in Resources */,
+				CCF3E9E01CB37DB60088ABED /* Assets.xcassets in Resources */,
+				CCF3E9DE1CB37DB60088ABED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9E71CB37DB60088ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9F21CB37DB60088ABED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF3E9D11CB37DB60088ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3E9DB1CB37DB60088ABED /* ViewController.swift in Sources */,
+				CCF3E9D91CB37DB60088ABED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9E51CB37DB60088ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3E9EE1CB37DB60088ABED /* boom_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF3E9F01CB37DB60088ABED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF3E9F91CB37DB60088ABED /* boom_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF3E9EB1CB37DB60088ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF3E9D41CB37DB60088ABED /* boom app */;
+			targetProxy = CCF3E9EA1CB37DB60088ABED /* PBXContainerItemProxy */;
+		};
+		CCF3E9F61CB37DB60088ABED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF3E9D41CB37DB60088ABED /* boom app */;
+			targetProxy = CCF3E9F51CB37DB60088ABED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF3E9DC1CB37DB60088ABED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3E9DD1CB37DB60088ABED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF3E9E11CB37DB60088ABED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF3E9E21CB37DB60088ABED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF3E9FB1CB37DB60088ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF3E9FC1CB37DB60088ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF3E9FE1CB37DB60088ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "boom app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF3E9FF1CB37DB60088ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "boom app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCF3EA011CB37DB60088ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "boom appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boom app.app/boom app";
+			};
+			name = Debug;
+		};
+		CCF3EA021CB37DB60088ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "boom appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boom app.app/boom app";
+			};
+			name = Release;
+		};
+		CCF3EA041CB37DB60088ABED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "boom appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "boom app";
+			};
+			name = Debug;
+		};
+		CCF3EA051CB37DB60088ABED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "boom appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sapotta.boom-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "boom app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF3E9D01CB37DB60088ABED /* Build configuration list for PBXProject "boom app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3E9FB1CB37DB60088ABED /* Debug */,
+				CCF3E9FC1CB37DB60088ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF3E9FD1CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3E9FE1CB37DB60088ABED /* Debug */,
+				CCF3E9FF1CB37DB60088ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF3EA001CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3EA011CB37DB60088ABED /* Debug */,
+				CCF3EA021CB37DB60088ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF3EA031CB37DB60088ABED /* Build configuration list for PBXNativeTarget "boom appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF3EA041CB37DB60088ABED /* Debug */,
+				CCF3EA051CB37DB60088ABED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF3E9CD1CB37DB60088ABED /* Project object */;
+}
